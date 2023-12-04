@@ -2,7 +2,6 @@
 Contains solutions for Day 3 stars.
 Run on Python 3.8.3.
 """
-import re
 
 INPUT_FILE = "input.txt"
 
