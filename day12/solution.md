@@ -13,8 +13,8 @@ On every `subproblem(record, group_records)`, there are the following base cases
 Otherwise, there are the following subproblems:
 1. If the first character is a `.`, we simply move on to the next character.
 2. If the first character is `#`, we look ahead to check if the group matches the requirement in `group_records`. 
-- If there is a mismatch (either the group length is not appropriate or there are no remaining group records), return `0`.
-- Otherwise, we remove the first group from `group_records` and continue on with the record.
+    - If there is a mismatch (either the group length is not appropriate or there are no remaining group records), return `0`.
+    - Otherwise, we remove the first group from `group_records` and continue on with the record.
 3. If the first character is a `?`, try both combinations from above.
 
 ## Star 2
