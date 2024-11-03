@@ -1,5 +1,5 @@
 """
-Contains solutions for Day N stars.
+Contains solutions for Day 12 stars.
 Run on Python 3.8.3.
 """
 
