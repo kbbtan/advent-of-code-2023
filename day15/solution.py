@@ -103,7 +103,7 @@ def star_2():
 def main():
     """ Contains driver code for running solutions.
     """
-    print("Solutsion for Star 1: ", star_1())
+    print("Solution for Star 1: ", star_1())
     print("Solution for Star 2: ", star_2())
 
 main()
